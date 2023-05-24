@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="../css/llogin.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form-wrapper">
+			<div class="logo">
+				<img src="../img/logo.png" alt="Logo">
+				<h2>login</h2>
+				<br>
+			</div>
+			<form action="http://localhost:8081/Library/Llogin" method="get">
+				<div class="form-group">
+					<label for="login">Login:</label>
+					<input type="text" id="login" name="Login" placeholder="Enter your login" required>
+				</div>
+				<div class="form-group">
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password" placeholder="Enter your password" required>
+				</div>
+				<button type="submit" class="submit-btn">Login</button>
+			</form>
+			<div style="text-align: center; margin-top: 10px;">
+			<br>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+	background-image: url("../img/b1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 27px 43px;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav li a:hover {
+	color: #f9004d;
+	transition: .4s;
+}
+td
+{
+	
+	color: black;
+}
+
